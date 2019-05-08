@@ -36,9 +36,13 @@ int main(){
 	
 	for(int i=1; i<=n; i++){
 		vt[i]= vt[i-1]+dt;		
-		k1 = dt*(1/m)*(-gamma*v1[i-1]-2*k*u1[i-1]+k*u2[i-1]+ forzamiento(t[i-1],omega);
+		k1 = dt*(1/m)*(-gamma*u1[i-1]-2*k*u1[i-1]+k*u2[i-1]+ forzamiento(t[i-1],omega);
 		k2 = dt*(1/m)*(-gamma*u1[i-1]-2*k*u1[i-1]+k*u2[i-1]+ forzamiento(t[i-1],omega);
-		k7= dt*(1/m)*(-gamma*(v1[i-1]+k1/2)-2*k*(u1[i-1]+k4/2)+k*(u2[i-1]+k5/2)+ forzamiento((t[i-1]+dt/2),omega);
+		k3 = dt*(1/m)*(-gamma*u1[i-1]-2*k*u1[i-1]+k*u2[i-1]+ forzamiento(t[i-1],omega);
+		k4 = v1[i-1];
+
+
+		k7 = dt*(1/m)*(-gamma*(u1[i-1]+k1/2)-2*k*(u1[i-1]+k4/2)+k*(u2[i-1]+k5/2)+ forzamiento((t[i-1]+dt/2),omega);
 		
 
 		u1[i] = u1[i-1]+(1/6)*(k4+2*k10+2*k16+k22)
