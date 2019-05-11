@@ -64,6 +64,7 @@ plt.savefig("Fourier_senales.pdf")
 
 ##espectrograma de las senales##
 plt.figure()
+plt.title("Espectrogramas de senales")
 plt.subplot(2,1,1)
 plt.specgram(data1[:,1])
 plt.ylabel("Frecuencia(Hz)")
