@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.11)  10 MAY 2019 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.11)  11 MAY 2019 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -700,16 +700,16 @@ LaTeX Info: Redefining \nameref on input line 19.
 \openout3 = `Resultados_hw2.out'.
 
 
-<signal_subplots.pdf, id=8, 578.16pt x 433.62pt>
+<signal_subplots.pdf, id=44, 578.16pt x 433.62pt>
 File: signal_subplots.pdf Graphic file (type pdf)
  <use signal_subplots.pdf>
-Package pdftex.def Info: signal_subplots.pdf used on input line 30.
+Package pdftex.def Info: signal_subplots.pdf used on input line 31.
 (pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
 
-<Fourier_senales.pdf, id=9, 578.16pt x 433.62pt>
+<Fourier_senales.pdf, id=45, 578.16pt x 433.62pt>
 File: Fourier_senales.pdf Graphic file (type pdf)
  <use Fourier_senales.pdf>
-Package pdftex.def Info: Fourier_senales.pdf used on input line 36.
+Package pdftex.def Info: Fourier_senales.pdf used on input line 37.
 (pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
 
 [1
@@ -719,40 +719,98 @@ Fourier_senales.pdf
 
 pdfTeX warning: pdflatex (file ./Fourier_senales.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
->]
+>] <espectrogramas1.pdf, id=117, 578.16pt x 433.62pt>
+File: espectrogramas1.pdf Graphic file (type pdf)
+
+<use espectrogramas1.pdf>
+Package pdftex.def Info: espectrogramas1.pdf used on input line 43.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+ <temblor.pdf, id=118, 578.16pt x 433.62pt>
+File: temblor.pdf Graphic file (type pdf)
+
+<use temblor.pdf>
+Package pdftex.def Info: temblor.pdf used on input line 49.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+ [2 <./espectrogramas1.pdf>]
+<Fourier_temblor.pdf, id=166, 578.16pt x 433.62pt>
+File: Fourier_temblor.pdf Graphic file (type pdf)
+ <use Fourier_temblor.pdf>
+Package pdftex.def Info: Fourier_temblor.pdf used on input line 55.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+
+<espec_temblor.pdf, id=167, 578.16pt x 433.62pt>
+File: espec_temblor.pdf Graphic file (type pdf)
+ <use espec_temblor.pdf>
+Package pdftex.def Info: espec_temblor.pdf used on input line 61.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+
+[3 <./temblor.pdf> <./Fourier_temblor.pdf
+
+pdfTeX warning: pdflatex (file ./Fourier_temblor.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+>] <amp_max_edificio.pdf, id=247, 578.16pt x 433.62pt>
+File: amp_max_edificio.pdf Graphic file (type pdf)
+
+<use amp_max_edificio.pdf>
+Package pdftex.def Info: amp_max_edificio.pdf used on input line 69.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+ [4 <./espec_temblor.pdf> <./amp_max_edificio.pdf
+
+pdfTeX warning: pdflatex (file ./amp_max_edificio.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] <avst_o1.pdf, id=329, 578.16pt x 433.62pt>
+File: avst_o1.pdf Graphic file (type pdf)
+ <use avst_o1.pdf>
+Package pdftex.def Info: avst_o1.pdf used on input line 77.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+
+<avst_o2.pdf, id=330, 578.16pt x 433.62pt>
+File: avst_o2.pdf Graphic file (type pdf)
+ <use avst_o2.pdf>
+Package pdftex.def Info: avst_o2.pdf used on input line 84.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+ [5 <./avst_o1.pdf>] <avst_o3.pdf, id=372, 578.16pt x 433.62pt>
+File: avst_o3.pdf Graphic file (type pdf)
+ <use avst_o3.pdf>
+Package pdftex.def Info: avst_o3.pdf used on input line 91.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+
+<avst_o4.pdf, id=373, 578.16pt x 433.62pt>
+File: avst_o4.pdf Graphic file (type pdf)
+ <use avst_o4.pdf>
+Package pdftex.def Info: avst_o4.pdf used on input line 96.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+ [6 <./avst_o2.pdf> <./avst_o3.pdf
+
+pdfTeX warning: pdflatex (file ./avst_o3.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] [7 <./avst_o4.pdf>]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
 (./Resultados_hw2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
-
-
-Package rerunfilecheck Warning: File `Resultados_hw2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Resultados_hw2.out':
-(rerunfilecheck)             Before: 0AB5FFFB6828AD0EB0070DF38A4B7483;55
-(rerunfilecheck)             After:  E5A88F1A891E42EA8BF511CFE239F50B;234.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+Package rerunfilecheck Info: File `Resultados_hw2.out' has not changed.
+(rerunfilecheck)             Checksum: A894E6E5119CBA6C408881AE74CC0A52;895.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 6639 strings out of 494953
- 95159 string characters out of 6180976
- 189822 words of memory out of 5000000
- 9860 multiletter control sequences out of 15000+600000
+ 6706 strings out of 494953
+ 96248 string characters out of 6180976
+ 190822 words of memory out of 5000000
+ 9905 multiletter control sequences out of 15000+600000
  5451 words of font info for 20 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,9n,28p,247b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,28p,834b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Resultados_hw2.pdf (1 page, 83840 bytes).
+Output written on Resultados_hw2.pdf (7 pages, 986575 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 19 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 517 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
